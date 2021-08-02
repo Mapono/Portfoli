@@ -22,10 +22,18 @@ nav a{
 }
 section{
     display: flex;
+    border: 500px;
 }
+
 h2{
     font-size: xx-large;
+    margin-right: 50px;
 }
 p{
     font-size: x-large;
+}
+secWrap{
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 50px;
 }
